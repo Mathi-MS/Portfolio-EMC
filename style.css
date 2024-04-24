@@ -25,6 +25,18 @@ body{
     background-color: transparent;
     color: orangered;
 }
+.section-one__work{
+    background-color:orangered;
+    color: white;
+    text-decoration: none;
+    padding:5px 12px;
+    display:inline-block;
+    border: solid 2px orangered;
+}
+.section-one__work:hover{
+    background-color: transparent;
+    color: orangered;
+}
 .section-one__header{
     font-size: 50px;
 }
@@ -71,6 +83,25 @@ body{
     color: skyblue;
     padding: 0px 2px;
 }
+.section-four__desc__anchorone{
+    color: white;
+    /* text-decoration: none; */
+}
+.section-four__desc__anchortwo{
+    background-color:transparent;
+    color:white;
+    text-decoration: none;
+    padding:5px 12px;
+    display:inline-block;
+    border: solid 2px white;
+    margin-top: 20px;
+}
+.section-four__desc__anchortwo:hover{
+    background-color:white;
+    color: orangered;
+    border: solid 2px white;
+}
+/* --contact  */
 .contact-form{
     margin-top: 20px;
 }
@@ -98,4 +129,38 @@ body{
 .contact-form__submit:hover{
     background-color: transparent;
     color: orangered;
+}
+.section-five__desc a{
+    color: white;
+    text-decoration: none;
+}
+/* work  */
+.section-work{
+    padding: 20px;
+    text-align: center;
+}
+.section-work__card{
+    display: inline-block;
+    width: 300px;
+    border: solid 2px black;
+    padding: 20px;
+    margin: 20px;
+}
+.section-work__card__img{
+    width:95%;
+    border: solid 5px black;
+}
+.section-work__card__anchor{
+    background-color: orangered;
+    color: white;
+    border: solid 2px orangered;
+    padding: 5px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+}
+.section-work__card__anchor:hover{
+    background-color: transparent;
+    color: orangered;
+    border: solid 2px orangered;
 }

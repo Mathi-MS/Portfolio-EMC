@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: "Platypi", serif;
+}
+.section-navbar{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 20px 0px;
+}
+.section-navbar__para{
+    color: grey;
+}
+.section-contact{
+    background-color: black;
+    padding:  20px 0px;
+    text-align: center;
+    color: white;
+}
+.section-contact table{
+    display:inline-block;
+    text-align: center;
+}
+.section-contact .table tr{
+    display: inline-block;
+}
+.section-contact__input{
+    height: 25px;
+    width: 250px;
+    margin-top: 10px;
+    outline: none;
+}
+.section-contact__sent{
+    width: 500px;
+    display:block;
+    text-align: center;
+    margin: 10px auto;
+    height: 40px;
+    color: black;
+    background-color: yellow;
+    border: solid 2px yellow;
+    font-family: "Platypi", serif;
+    font-size: 15px;
+    width: 60%;
+}
+.section-contact__sent:hover{
+    background-color: transparent;
+    color: yellow;
+    
+}
+
+.section-main{
+    padding: 30px 0px;
+    text-align: center;
+}
+.section-main__card{
+    display: inline-block;
+    padding:5px;
+    border: solid 3px black;
+}
+.section-main__card__button{
+    background-color: black;
+    color: white;
+    padding: 5px 20px;
+    display: inline-block;
+    margin-top: 10px;
+    border: solid 2px black;
+    font-family: "Platypi", serif;
+}
+.section-main__card__button:hover{
+    background-color: transparent;
+    color: black;
+    border: solid 2px black;
+    
+}
+
+.section-copyright{
+    background-color: black;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    display: block;
+    padding: 20px 0px;
+}
