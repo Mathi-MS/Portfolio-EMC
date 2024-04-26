@@ -146,8 +146,9 @@ body{
     padding: 20px;
     margin: 20px;
 }
-.section-work__card__img{
-    width:95%;
+.section-work__card__img {
+    width: 95%;
+    height: 200px;
     border: solid 5px black;
 }
 .section-work__card__anchor{
