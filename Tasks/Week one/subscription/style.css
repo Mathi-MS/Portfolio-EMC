@@ -1,0 +1,53 @@
+/* <i class="fa-solid fa-circle-check"></i>
+<i class="fa-solid fa-circle-xmark"></i> */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", sans-serif;
+    background-color: pink;
+}
+.navbar{
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(255, 2, 44);
+    color: white;
+}
+.boxes__box{
+    background-color: black;
+    border-radius: 20px;
+    padding: 20px;
+    color: white;
+    width:300px;
+    margin-top: 50px;
+}
+.boxes__box__price{
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+.boxes__box__plan{
+    text-align: center;
+    font-weight: 500;
+    font-size: 35px;
+}
+.boxes__box__list{
+    list-style-type: none;
+    border: solid 1px white;
+    padding: 10px;
+    margin: 10px 0px;
+}
+.boxes__box__list i{
+    color: rgb(255, 2, 44);
+    font-size: 18px ;
+}
+.boxes__box__list li{
+    font-size: 18px ;
+    padding: 5px 0px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-around;
+}
